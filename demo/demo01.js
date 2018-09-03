@@ -27,9 +27,10 @@ var REN2;
 })(REN2 || (REN2 = {}));
 console.log(REN.gender); // 下标 2
 console.log(REN2.gender); // 中性
-// any
+// any 
 console.log('----------------');
 var t = 10;
 t = 'wikiHong';
 t = true;
 console.log(t);
+// null
