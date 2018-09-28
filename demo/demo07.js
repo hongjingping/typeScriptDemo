@@ -14,3 +14,5 @@ var d5 = new Date('2018-09-28T15:23:00');
 console.log(d3);
 console.log(d4);
 console.log(d5);
+// 
+var d6 = new Date(year, month, day, hours, minutes, seconds);
