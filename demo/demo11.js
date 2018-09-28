@@ -35,6 +35,10 @@ var wikiHongBaby = /** @class */ (function (_super) {
     wikiHongBaby.prototype.zhuangqian = function () {
         console.log('一天赚一个亿');
     };
+    wikiHongBaby.prototype.interest = function () {
+        _super.prototype.interest.call(this);
+        console.log("建立公司");
+    };
     return wikiHongBaby;
 }(Wikihong));
 var baby = new wikiHongBaby('男', '小美', '找小姐姐');

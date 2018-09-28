@@ -20,6 +20,10 @@ class wikiHongBaby extends Wikihong {
   public zhuangqian () {
     console.log('一天赚一个亿')
   }
+  public interest () {
+    super.interest()
+    console.log("建立公司")
+  }
 }
 
 let baby = new wikiHongBaby('男', '小美', '找小姐姐')
